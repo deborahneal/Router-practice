@@ -14,18 +14,26 @@
 }
 
 .coder{
-  animation: App-logo-spin infinite 20s linear;
+  /* animation: App-logo-spin infinite 20s linear; */
+ font-style: italic;
+ font-weight: 500;
+ color: brown;
+ 
+
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: black;
+  background-image: url(https://media2.giphy.com/media/3ov9k9Uv8dT8zzQdS8/giphy.gif?cid=ecf05e477gmy623187cia8dl4mvpo0hmu1jexp4wcyt8o67n&rid=giphy.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: yellow;
 }
 
 .App-link {

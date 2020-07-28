@@ -7,7 +7,7 @@ function Home() {
 
             <img src={logo} className="App-logo" alt="logo" />
             <p>
-                🦉<code>Hello there</code> .
+                <code></code> .
             </p>
         </>
     )

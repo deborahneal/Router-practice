@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <h1 className="coder" >N</h1>
+      {/* <h1 className="coder" >D</h1> */}
       <header className="App-header">
         <Switch>
           <Route path="/"component={Home} exact />
