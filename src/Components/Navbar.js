@@ -12,13 +12,19 @@ function NavBar(){
           <Nav.Link href="/About">About Me</Nav.Link>
           <Nav.Link href="/Contact">Contact</Nav.Link>
           <NavDropdown title="Projects" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="/Projects">Projects</NavDropdown.Item>
+          <NavDropdown.Item href="/Projects">Projects</NavDropdown.Item> 
+            {/* <NavDropdown.Divider /> */}
+            {/* <NavDropdown title="Projects" id="collasible-nav-dropdown">
+            <NavDropdown.Item href="/Projects">Project-1</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.2">Project 1</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Project 2</NavDropdown.Item>
+          </NavDropdown> */}
+            {/* <NavDropdown.Item href="#action/3.2">Learning GameApp for Toddlers</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3">Flower Gallery</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.4">Movie API</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.4">Snake Game</NavDropdown.Item> */}
             
-            <NavDropdown.Item href="#action/3.4">Project 3</NavDropdown.Item>
-          </NavDropdown>
+          </NavDropdown> 
+          
         </Nav>
         
       </Navbar.Collapse>

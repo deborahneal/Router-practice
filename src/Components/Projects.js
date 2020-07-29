@@ -1,30 +1,34 @@
 import React, {Component} from 'react';
+import gamePic from '../Assets/GamePic.png';
+import flowerGalery from '../Assets/flower-galery.png';
+import movies from '../Assets/movie-api2.png';
+import snakeGame from '../Assets/snake-game.png';
 
 let response = [
   { 
   name: 'Game App ', 
-  url: 'https://project1.io',
+  url: 'https://deborahneal.github.io/GameProject/',
   description: 'It is a learning app for kids from 1 to 4 years old.',
-  imgUrl: 'project1.com', 
-  techUsed: ['JavaScript', 'HTML', 'CSS' ],
+  imgUrl: `${gamePic}`, 
+  techUsed: ['JavaScript', ' ', 'HTML', ' ', 'CSS' ],
   },{ 
   name: 'Flower Galery', 
   url: 'https://project2.io',
   description: 'A site to enjoy looking at some of the must beautiful flowers in the world.',
-  imgUrl: 'project2.com', 
-  techUsed: ['CSS', 'HTML' ], 
+  imgUrl: `${flowerGalery}`, 
+  techUsed: ['CSS', ' ', 'HTML', ], 
   },{ 
-  name: 'project3', 
+  name: 'Movies API ', 
   url: 'https://project3.io',
-  description: 'Project description 1',
-  imgUrl: 'project3.com', 
-  techUsed: ['JavaScript', 'html' ],
+  description: 'App allowing you to look for posters and other info about a movie.',
+  imgUrl: `${movies}`, 
+  techUsed: ['JavaScript', ' ', 'HTML' , ' ', 'PSQL', ' ' , 'CSS', ' ', 'Node'],
   },{ 
-  name: 'project4', 
+  name: 'Snake Game', 
   url: 'https://project4.io',
   description: 'Project description 2',
-  imgUrl: 'project4.com', 
-  techUsed: ['JavaScript', 'html' ], 
+  imgUrl: `${snakeGame}`, 
+  techUsed: ['JavaScript', '  ', 'HTML', ' ', 'Canvas', ' ', 'CSS'], 
  
   }
 
@@ -41,7 +45,16 @@ getAllProjects(){
   let getAllProjects = [];
 
   for(let i = 0; i < response.length; i++){
-  getAllProjects.push(<h1>{response[i].name}</h1>)
+  getAllProjects.push(
+    <div>
+    <h1><a target="_blank" href={response[i].url}>{response[i].name}</a></h1>
+    <img src={response[i].imgUrl} className="imgSize"></img>
+    <h1 className="descript" >{response[i].description} </h1>
+    <h1 className="tech" >{response[i].techUsed}</h1>
+
+    </div>
+    )
+
   }
   return getAllProjects;
 

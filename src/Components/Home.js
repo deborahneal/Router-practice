@@ -1,15 +1,15 @@
 import React from 'react';
-import logo from '../logo.svg';
+import letter from '../Assets/DLetter.png';
 
 function Home() {
     return(
-        <>
+        <div className="homePage">
 
-            <img src={logo} className="App-logo" alt="logo"/>
+            <img src={letter} className="App-logo" alt="logo"/>
             <p>
-                <code></code> .
+                <code><h1 className="Bonjour">Welcome</h1></code> .
             </p>
-        </>
+        </div>
     )
 }
 

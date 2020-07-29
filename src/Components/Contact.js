@@ -5,16 +5,16 @@ function Contact() {
     return(
         <>
             <p>
-                <code>Test</code> 
+                <code>deborah9580@gmail.com</code> 
             </p>
             <p>
-                <code>Test</code> 
+                <code>https://www.linkedin.com/in/deborahtlucilleneal/</code> 
             </p>
             <p>
-                <code>Test</code> 
+                <code>https://github.com/deborahneal?tab=repositories</code> 
             </p>
             <p>
-                <code>Test</code> 
+                <code>deboraht.neal.v1@nebulaacademy.org</code> 
             </p>
         </>
     )

@@ -1,8 +1,10 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
+  margin-top: 80px;
   height: 40vmin;
   pointer-events: none;
 }
@@ -22,23 +24,28 @@
 
 }
 
-.App-header {
+.homePage{
   background-color: black;
-  background-image: url(https://media2.giphy.com/media/3ov9k9Uv8dT8zzQdS8/giphy.gif?cid=ecf05e477gmy623187cia8dl4mvpo0hmu1jexp4wcyt8o67n&rid=giphy.gif);
+  /* background-image: url(https://media2.giphy.com/media/3ov9k9Uv8dT8zzQdS8/giphy.gif?cid=ecf05e477gmy623187cia8dl4mvpo0hmu1jexp4wcyt8o67n&rid=giphy.gif); */
+  background-size: 200vw;
   background-repeat: no-repeat;
   background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.App-header {
+  background-color: darkslategrey;
+  font-family: 'Times New Roman', Times, serif;
   min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(8px + 2vmin);
   color: yellow;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -47,4 +54,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.App-link {
+  color: #61dafb;
+  
+}
+
+
+.imgSize{
+  width: 50%;
+  border: 5px solid black;
+  border-radius: 35px;
+  margin: 10px;
+  margin-top: 15px;
+}
+
+.Bonjour{
+  color: brown;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.tech{
+  margin-bottom: 90px;
+  /* border: 1px solid; */
+  border-radius: 3px;
+  text-shadow: sandybrown;
+  min-width: 20%;
+}
+
+.descript{
+  font-size: x-large;
+  color: lavender;
+  font-family: 'Times New Roman', Times, serif;
 }
