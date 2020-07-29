@@ -5,7 +5,7 @@ function Home() {
     return(
         <>
 
-            <img src={logo} className="App-logo" alt="logo" />
+            <img src={logo} className="App-logo" alt="logo"/>
             <p>
                 <code></code> .
             </p>

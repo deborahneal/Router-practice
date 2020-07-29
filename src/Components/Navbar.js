@@ -10,6 +10,7 @@ function NavBar(){
         <Nav className="mr-auto">
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/About">About Me</Nav.Link>
+          <Nav.Link href="/Contact">Contact</Nav.Link>
           <NavDropdown title="Projects" id="collasible-nav-dropdown">
             <NavDropdown.Item href="/Projects">Projects</NavDropdown.Item>
             <NavDropdown.Divider />

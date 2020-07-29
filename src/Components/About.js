@@ -7,6 +7,12 @@ function About() {
             <p>
                 About Me
             </p>
+            <p>
+                About Me
+            </p>
+            <p>
+                About Me
+            </p>
         </>
     )
 }

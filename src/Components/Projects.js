@@ -2,17 +2,17 @@ import React, {Component} from 'react';
 
 let response = [
   { 
-  name: 'project1', 
+  name: 'Game App ', 
   url: 'https://project1.io',
-  description: 'Project description 1',
+  description: 'It is a learning app for kids from 1 to 4 years old.',
   imgUrl: 'project1.com', 
-  techUsed: ['JavaScript', 'html' ],
+  techUsed: ['JavaScript', 'HTML', 'CSS' ],
   },{ 
-  name: 'project2', 
+  name: 'Flower Galery', 
   url: 'https://project2.io',
-  description: 'Project description 2',
+  description: 'A site to enjoy looking at some of the must beautiful flowers in the world.',
   imgUrl: 'project2.com', 
-  techUsed: ['JavaScript', 'html' ], 
+  techUsed: ['CSS', 'HTML' ], 
   },{ 
   name: 'project3', 
   url: 'https://project3.io',
