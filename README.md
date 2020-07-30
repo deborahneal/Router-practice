@@ -27,3 +27,27 @@
 * []create a projects component
 * []
 * []
+
+
+
+
+
+// //  getAllProjects(){
+
+// //   let getAllProjects = [];
+
+// //   for(let i = 0; i < response.length; i++){
+// //   getAllProjects.push(
+//     <div>
+//     <h1><a target="_blank" href={response[i].url}>{response[i].name}</a></h1>
+//     <img src={response[i].imgUrl} className="imgSize"></img>
+//     <h1 className="descript" >{response[i].description} </h1>
+//     <h1 className="tech" >{response[i].techUsed}</h1>
+
+//     </div>
+// //     )
+
+// //   }
+// //   return getAllProjects;
+
+// // }
